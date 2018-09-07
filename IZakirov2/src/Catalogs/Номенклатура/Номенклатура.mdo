@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99636027-c6ce-4b52-a07d-3c8bab3a82e1">
+  <producedTypes>
+    <objectType typeId="6d75f1e0-e496-451c-b778-2ff26c4134ce" valueTypeId="5616da45-b617-4cc8-a2dd-7ff680eda679"/>
+    <refType typeId="65a8e13c-fd5e-49bb-b94c-615efe563751" valueTypeId="c93d454b-3a36-414f-b4f2-adaf62d49005"/>
+    <selectionType typeId="1d5290e4-12ba-4341-8013-6efe61f7b7ff" valueTypeId="45e7f053-5a02-4b2b-a43c-7cdf24471ae5"/>
+    <listType typeId="07b85592-6edf-4fb6-80c1-1c87b68b2564" valueTypeId="1f9fa210-f97a-4fa9-ad0c-ec6ea3ab69bc"/>
+    <managerType typeId="d471d720-2ce9-4374-a502-8f7b2d065390" valueTypeId="3dc84058-62cc-4928-abef-90490dd90e07"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="104a9374-4ba9-4776-aeb5-f568b6c25b63">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

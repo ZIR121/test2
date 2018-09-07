@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7561b63f-f748-4010-816a-0bef3e00d653">
+  <producedTypes>
+    <selectionType typeId="9eaf7fa0-892e-48cb-8bd4-bc4e4c9ec448" valueTypeId="75252f9e-0dec-4f95-b78e-b65686ae0cb0"/>
+    <listType typeId="4284bb4e-b407-4cee-9051-e26fd714c06f" valueTypeId="6b79caa7-c2db-490b-ab8b-8e007fd6b4dc"/>
+    <managerType typeId="5d23c0a8-1c92-40fe-abef-d4efa51b6b63" valueTypeId="a01ac860-a2cb-4376-8bfe-514bf712f614"/>
+    <recordSetType typeId="6d4c2374-7066-4ff8-a263-9c53fa896ad3" valueTypeId="7a64f390-4ab7-4eae-a633-284dc4074598"/>
+    <recordKeyType typeId="815b1444-c4e7-4017-a316-4e897168dfc9" valueTypeId="07e60438-c706-4321-bdde-5b9c9b05092e"/>
+    <recordType typeId="9f81309b-ccd6-4bfc-8bf8-4e0f614708d6" valueTypeId="03f85c6c-525a-4b30-ad7a-a36a7547cba9"/>
+    <recordManagerType typeId="096a5bf8-7632-43a8-b3f8-f84783203bad" valueTypeId="cbc0585b-d8ec-4914-86ab-7e7a0e1d57dd"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dceb31d2-35eb-4410-bc37-68e31f3990ca">
+    <name>МетодСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.МетодыСписанияУчетнойПолитики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

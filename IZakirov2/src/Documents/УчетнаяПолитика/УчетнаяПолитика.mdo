@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81462814-3f07-407a-b211-7ac32d5df395">
+  <producedTypes>
+    <objectType typeId="cabfb5ae-2015-43eb-b778-3c53ce93eecb" valueTypeId="965a5dae-3349-4c0e-b4ce-f121e551e467"/>
+    <refType typeId="049c7fcb-1a7c-4e48-af1c-16f2fe57d74e" valueTypeId="87a7aed1-f76e-4e04-b390-42779edbc634"/>
+    <selectionType typeId="e746274c-95ff-41f3-8f19-6f8471dbdf3d" valueTypeId="71911127-bf1f-47f4-8751-6507b8836b28"/>
+    <listType typeId="e68f2b9a-3fde-44de-b58e-1035b931ec47" valueTypeId="46d47734-27c6-4511-87b4-d73d93a29cd4"/>
+    <managerType typeId="947c954b-a078-4650-8ef8-40af000e4183" valueTypeId="24c75003-649c-47a0-887c-7172b8f8ac4c"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УчетнаяПолитика.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УчетнаяПолитика.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d827d8a9-885e-49d9-a053-7452941004e1">
+    <name>МетодСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.МетодыСписанияУчетнойПолитики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="04bf0574-a6c8-4879-9278-8b64177d5e73">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
