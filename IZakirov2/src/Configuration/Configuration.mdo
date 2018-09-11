@@ -36,7 +36,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
-  <commonForms>CommonForm.Форма</commonForms>
+  <commonForms>CommonForm.Форма1</commonForms>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
