@@ -41,7 +41,9 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.УчетнаяПолитика</documents>
+  <documents>Document.Документ</documents>
   <enums>Enum.МетодыСписанияУчетнойПолитики</enums>
+  <enums>Enum.Перечисление</enums>
   <reports>Report.ОтчетПоДвижениямТоваровЗаПериод</reports>
   <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
