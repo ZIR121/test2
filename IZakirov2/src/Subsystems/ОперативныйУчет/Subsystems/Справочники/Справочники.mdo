@@ -13,5 +13,6 @@
   </picture>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.Услуги</content>
   <parentSubsystem>Subsystem.ОперативныйУчет</parentSubsystem>
 </mdclass:Subsystem>

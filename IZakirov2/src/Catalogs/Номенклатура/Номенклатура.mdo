@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="104a9374-4ba9-4776-aeb5-f568b6c25b63">
     <name>ЕдиницаИзмерения</name>
     <synonym>
@@ -48,4 +49,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="df66542a-0171-461b-9011-54f939b9a1b1">
+    <name>РеквизитХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bdf53f93-ca77-42a5-a26d-0537d7e3a520">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

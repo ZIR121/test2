@@ -36,6 +36,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <subsystems>Subsystem.Ветка2</subsystems>
   <constants>Constant.Константа</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
