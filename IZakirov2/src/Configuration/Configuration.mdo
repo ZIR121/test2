@@ -38,6 +38,7 @@
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.УчетнаяПолитика</documents>
