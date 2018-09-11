@@ -37,6 +37,7 @@
   </languages>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <subsystems>Subsystem.Ветка2</subsystems>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <constants>Constant.Константа</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
@@ -44,6 +45,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.УчетнаяПолитика</documents>
+  <documents>Document.Документ1</documents>
   <enums>Enum.МетодыСписанияУчетнойПолитики</enums>
   <reports>Report.ОтчетПоДвижениямТоваровЗаПериод</reports>
   <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
