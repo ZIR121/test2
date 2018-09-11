@@ -38,9 +38,11 @@
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.УчетнаяПолитика</documents>
+  <documents>Document.Документ1</documents>
   <enums>Enum.МетодыСписанияУчетнойПолитики</enums>
   <reports>Report.ОтчетПоДвижениямТоваровЗаПериод</reports>
   <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
